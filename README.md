@@ -1,28 +1,24 @@
-# Example
+# ReadMe Generator
 ![GitHub license](https://img.shields.io/badge/license-GPL_3.0-blue.svg)
 
 ## Description
 
-Description of Project
+A terminal application for generating READMEs
 
 ## Contributors
 
-[undefined](https://github.com/undefined/) 
-
-
-## Live Site
-[____](https://____.herokuapp.com/)
+[AeroAtlas](https://github.com/AeroAtlas/)
 
 ## Technologies
 
 <ul>
-    <li>Node.js</li>
-    <li>Javascript</li>
+  <li>Node.js</li>
+  <li>Javascript</li>
 </ul>
 
 ## Preview of Project
 
-<img src="./bliss.png"></img>
+<img src="./READMEGenerator.png"></img>
 
 ## Table of Contents 
 
@@ -48,7 +44,7 @@ npm i
 
 ## Usage
 
-Feel free to fork and make it work better for you
+If you want to use this project just git clone the repository and run it locally
 
 ## License
 
@@ -56,7 +52,7 @@ This project is licensed under the GPL_3.0 license.
   
 ## Contributing
 
-This is my own personal README generator
+This is a personal utility project, but feel free to form or submit pull requests
 
 ## Tests
 

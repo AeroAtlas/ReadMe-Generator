@@ -34,8 +34,17 @@ function renderTechnologies(tech) {
 
 function renderContributors(users) {
   return users.split(",").map(t => t.trim()).reduce((acc,curr) => {
-    return acc + `[${curr.github}](https://github.com/${curr.github}/) \n`
+    return acc + `[${curr}](https://github.com/${curr}/), `
   }, "")
+}
+
+function renderLiveLink(live){
+  return live.toLowerCase() !== "none" 
+    ? `
+## Live Site
+[${data.live}](https://${data.live}.herokuapp.com/)
+`
+  : ""
 }
 
 function generateMarkdown(data) {
@@ -49,10 +58,7 @@ ${data.description}
 ## Contributors
 
 ${renderContributors(data.users)}
-
-## Live Site
-[${data.live}](https://${data.live}.herokuapp.com/)
-
+${renderLiveLink(data.live)}
 ## Technologies
 
 ${renderTechnologies(data.tech)}

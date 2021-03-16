@@ -35,7 +35,8 @@ const questions = [
   {
     type: "input",
     name: "live",
-    message: "What is the link to the live site (assumes it is a heroku link)",
+    message: "What is the link to the live site (none = no live link, assumes its a heroku link)",
+    default: "none"
   },
   {
     type: "input",
